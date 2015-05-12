@@ -1,0 +1,37 @@
+/* Globals.scss */
+
+// @import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,900);
+
+$color: #52ecff;
+$background-color: #52ecff;
+$base-font-size: 22px;
+$logo-color: #6e6e6e;
+$line-height: 1.45;
+
+@function em($px, $base: $base-font-size) {
+    @return($px / $base) * 1em;
+}
+
+@mixin body-font {
+    font-family: "adobe-garamond-pro", "georgia", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin body-font-italic {
+    font-family: "adobe-garamond-pro", "georgia", serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@mixin body-font-bold {
+    font-family: "adobe-garamond-pro", "georgia", serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin headline-font {
+    font-family: "league-gothic", "verdana", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
